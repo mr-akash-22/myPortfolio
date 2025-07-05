@@ -967,6 +967,13 @@ section,
 .contact .email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
+.nametext{
+  background: linear-gradient(45deg, red,rgb(0, 110, 255)); /* Or your desired gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
 
 .contact .email-form button[type=submit] {
   color: var(--contrast-color);
